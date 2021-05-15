@@ -1,0 +1,48 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-weight: 300;
+}
+
+body {
+    background-color: #000;
+    padding: 50px;
+    background-image: url("cook.jpg");
+    background-repeat: no-repeat;
+
+}
+
+#location {
+    display: block;
+    border: none;
+    background: rgba(255,255,255, .5);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    outline: none;
+    width: 100%;
+    font-size: 30px;
+
+}
+
+#location::placeholder {
+    color: rgba(255, 255, 255, .5);
+}
+
+#show {
+    display: block;
+    border: none;
+    margin-top: 15px;
+
+    background: #005C97;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    outline: none;
+    width: 100%;
+    font-size: 30px;
+
+}
